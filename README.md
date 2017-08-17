@@ -23,15 +23,15 @@
 
 ## 第一章 面试经历
 
-[01-01]()`2018校招阿里面试提前批-前端开发工程师-8.7`
+[01-01](https://github.com/TYRMars/JavaScrip-StepPitGuide)`2018校招阿里面试提前批-前端开发工程师-8.7`
 
-[01-02]()`2018校招腾讯面试提前批-前端开发工程师-8.14`
+[01-02](https://github.com/TYRMars/JavaScrip-StepPitGuide)`2018校招腾讯面试提前批-前端开发工程师-8.14`
 
 ## 第二章 问题总结
 
-[02-01]()`阿里面试问题总结`
+[02-01](https://github.com/TYRMars/JavaScrip-StepPitGuide)`阿里面试问题总结`
 
-[02-02]()`腾讯面试问题总结`
+[02-02](https://github.com/TYRMars/JavaScrip-StepPitGuide)`腾讯面试问题总结`
 
 
 ## 附录：知识点
@@ -44,6 +44,7 @@
 
 ### JavaScript事件问题
 
+* [深入浅出JS事件](http://www.cnblogs.com/jingwhale/p/4656869.html)
 * [JQuery ready和load的 区别](http://blog.csdn.net/u010555110/article/details/51861054)
 * [JQuery ready和load的 区别 - 慕课网](http://www.imooc.com/code/3253)
 * [zepto的tap事件点透分析](http://smile-leaf-language.github.io/2016/02/02/zepto-tap/)
@@ -51,6 +52,8 @@
 ### JavaScript通信问题📞
 
 * [跨域问题](http://blog.csdn.net/joyhen/article/details/21631833)
+* [webpack跨域 http-proxy-middleware](http://www.jb51.net/article/120259.htm),[npm模块之http-proxy-middleware使用教程（译）](http://blog.csdn.net/xmloveth/article/details/56847456)
+* [IE8和IE9上的HTTP access control (CORS) 的实现 --- XDomainRequest](https://developer.mozilla.org/zh-CN/docs/Web/API/XDomainRequest)
 
 ### CSS
 
@@ -68,8 +71,26 @@
 ## 01-01
 ### 阿里面试
 
+* 此次面试，面试的是阿里巴巴国际UED的前端团队
+
+* 面试的主要问题：
+    * DOM事件
+    * 实习项目中常用的API
+    * Web安全
+    * 前端性能优化
+    * 跨域问题
+
 ## 01-02
 ### 腾讯面试
+
+* 此次面试，面试的是腾讯QQ音乐前端开发
+
+* 面试主要问题：
+    * DOM事件
+    * 页面加载<script>标签放到哪里
+    * 对比load和ready (考察点在与页面加载DOMContentLoaded)与script标签问题同在一个知识链条上
+    * 跨域问题
+    * 页面性能优化
 
 # 第二章
 
