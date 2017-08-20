@@ -113,34 +113,6 @@
 ### 腾讯面试总结
 
 ```JavaScript
-function ajax(url,fnSucc,fnFaild) {
-    //1.创建ajax对象
-    if(window.XMLHttpRequest){
-        var iAjax = new XMLHttpRequest();
-    }else{
-        var iAjax = new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    //2.连接服务器
-    //open(方法、文件名、异步传输)
-    iAjax.open('GET',url,true);
-    //3.发送请求
-    iAjax.send();
-    //4.接受返回
-    iAjax.onreadystatechange = function () {
-        //iAjax.readyState 浏览器和服务器进行到哪一步了
-        if(iAjax.readyState == 4){
-            if(iAjax.status == 200){
-                fnSucc(iAjax.responseText);
-            }
-            else{
-                if(fnFaild){
-                    fnFaild(iAjax.status);
-                }
-                alert('失败'+iAjax.status);
-            }
-        }
-    }
-}
 
 (function() {
     var TOUCHSTART, TOUCHEND;
