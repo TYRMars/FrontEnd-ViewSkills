@@ -23,15 +23,19 @@
 
 ## 第一章 面试经历
 
-[01-01](https://github.com/TYRMars/JavaScrip-StepPitGuide)`2018校招阿里面试提前批-前端开发工程师-8.7`
+[01-01](https://github.com/TYRMars/JavaScrip-StepPitGuide/#01-01)`2018校招阿里面试提前批-前端开发工程师-8.7`
 
-[01-02](https://github.com/TYRMars/JavaScrip-StepPitGuide)`2018校招腾讯面试提前批-前端开发工程师-8.14`
+[01-02](https://github.com/TYRMars/JavaScrip-StepPitGuide/#01-02)`2018校招腾讯面试提前批-前端开发工程师-8.14`
 
 ## 第二章 问题总结
 
-[02-01](https://github.com/TYRMars/JavaScrip-StepPitGuide)`阿里面试问题总结`
+[02-01](https://github.com/TYRMars/JavaScrip-StepPitGuide/#02-01)`阿里面试问题总结`
 
-[02-02](https://github.com/TYRMars/JavaScrip-StepPitGuide)`腾讯面试问题总结`
+[02-02](https://github.com/TYRMars/JavaScrip-StepPitGuide/#02-02)`腾讯面试问题总结`
+
+## 第三章 实习总结
+
+[03-01](https://github.com/TYRMars/JavaScrip-StepPitGuide/#03-01)`实习总结`
 
 
 ## 附录：知识点
@@ -80,6 +84,8 @@
 
 # 第一章
 
+* 面试主要问的都是在自我介绍和简历上所写的技能
+
 ## 01-01
 ### 阿里面试
 
@@ -102,15 +108,38 @@
     * 页面加载<script>标签放到哪里
     * 对比load和ready (考察点在与页面加载DOMContentLoaded)与script标签问题同在一个知识链条上
     * 跨域问题
-    * 页面性能优化
+    * 页面性能优化 `localStorage`
 
 # 第二章
 
 ## 02-01
 ### 阿里面试总结
 
+* 阿里面试是我第一次面试大公司，虽然说有提前准备，但是还是有很多不足。从这次面试我懂得了，自己在基础知识上的不足。有些东西可能你自己懂了，但是如果让你讲给别人，如何去讲清楚才是最重要的问题。
+* 体会到阿里还是很喜欢新技术
+
 ## 02-02
 ### 腾讯面试总结
+
+* 隔了一个星期面试了腾讯，从问题当中感觉到对于IE兼容的看重，可能和QQ音乐的业务有关。我一开始并没有从宏观上理解面试官为什么问这些问题。回来思考一下，所有的问题还是有联系的，只不过我自己有很多知识点片段的断裂，自己连接不起来。
+* 感觉腾讯有的业务技术栈确实偏老旧，可能是为了更符合受众所致
+
+## 02-03
+### 以上综述
+
+## 02-04
+### 学习总结
+
+* 我兴致勃勃的去学习了React框架，但其实学习路径上出现了一些错误。学习完HTML、CSS、JavaScript这些基础内容，我并没有先去学习一下ES6和Node，直接去学习React。从中感觉到有的东西只是会用，但并不知道其中的原理，学习了ES6以后在回来看React，发现很多React设计思想都有了很好的理解。不仅仅是当初那种会用的感觉，知道了其中的原理。所以自己还需要多多的学习只是，去真正理解React这个框架为什么出现，而且在不同场景下对于框架的选择。
+
+
+# 第三章
+
+## 03-01
+### 实习总结
+
+
+* 触摸事件封装
 
 ```JavaScript
 
@@ -120,7 +149,6 @@
         TOUCHSTART = 'touchstart';
         TOUCHEND = 'touchend';
         TOUCHMOVE ='touchmove';
-
     } else if (typeof(window.onmspointerdown) != 'undefined') {
         TOUCHSTART = 'MSPointerDown';
         TOUCHEND = 'MSPointerUp';
