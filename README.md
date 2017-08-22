@@ -127,6 +127,12 @@
 ## 02-03
 ### 以上综述
 
+* 面试了以后。我都查了相关部门的社招信息，他们都没有在招普初级前端工程师，而是急切需要招聘高级工程师对标阿里的P6和腾讯T2.3、T3.1。说明他们需要的是更有能力的人，他们希望能吧一个应届生培养成这样的人。
+
+![alibaba](https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=2c664abb5cfbb2fb347e50147f7a0c9c/4afbfbedab64034f0d7880e0a6c379310b551d9a.jpg)
+
+![tencent](https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/8d5494eef01f3a29387d98289025bc315d607c9a.jpg)
+
 ## 02-04
 ### 学习总结
 
